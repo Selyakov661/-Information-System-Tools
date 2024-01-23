@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django + MySQL</title>
+</head>
+
+<body>
+
+<h1>Users</h1>
+<p>
+
+<form action="" method="post">
+    <fieldset id="search">
+        <legend>Data for searching User by name</legend>
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Search">
+    </fieldset>
+</form>
+
+</body>
+</html>

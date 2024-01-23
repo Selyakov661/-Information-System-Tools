@@ -1,0 +1,21 @@
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::b1a4:69df:c134:8ec8. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 06 18:26:31.542333 2023] [mpm_winnt:notice] [pid 9452:tid 392] AH00455: Apache/2.4.58 (Win64) configured -- resuming normal operations
+[Wed Dec 06 18:26:31.542333 2023] [mpm_winnt:notice] [pid 9452:tid 392] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Dec 06 18:26:31.542333 2023] [core:notice] [pid 9452:tid 392] AH00094: Command line: 'httpd.exe -d C:/Users/HydraTyan/Desktop/Information-Systems-Tools/Lab7/Apache24'
+[Wed Dec 06 18:26:31.542333 2023] [mpm_winnt:notice] [pid 9452:tid 392] AH00418: Parent: Created child process 7864
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::b1a4:69df:c134:8ec8. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::b1a4:69df:c134:8ec8. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 06 18:26:33.422738 2023] [mpm_winnt:notice] [pid 7864:tid 384] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 06 18:30:50.721456 2023] [mpm_winnt:notice] [pid 9452:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 06 18:30:52.728905 2023] [mpm_winnt:notice] [pid 7864:tid 384] AH00364: Child: All worker threads have exited.
+[Wed Dec 06 18:30:52.749629 2023] [mpm_winnt:notice] [pid 9452:tid 392] AH00430: Parent: Child process 7864 exited successfully.
+[Wed Dec 06 18:33:50.330344 2023] [mpm_winnt:notice] [pid 12972:tid 380] AH00455: Apache/2.4.58 (Win64) configured -- resuming normal operations
+[Wed Dec 06 18:33:50.330344 2023] [mpm_winnt:notice] [pid 12972:tid 380] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Dec 06 18:33:50.330344 2023] [core:notice] [pid 12972:tid 380] AH00094: Command line: 'httpd.exe -d C:/Users/HydraTyan/Desktop/Information-Systems-Tools/Lab7/Apache24'
+[Wed Dec 06 18:33:50.330344 2023] [mpm_winnt:notice] [pid 12972:tid 380] AH00418: Parent: Created child process 11580
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 11580:tid 396] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 06 18:34:10.312145 2023] [mpm_winnt:notice] [pid 12972:tid 380] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Dec 06 18:34:12.319596 2023] [mpm_winnt:notice] [pid 11580:tid 396] AH00364: Child: All worker threads have exited.
+[Wed Dec 06 18:34:12.333166 2023] [mpm_winnt:notice] [pid 12972:tid 380] AH00430: Parent: Child process 11580 exited successfully.

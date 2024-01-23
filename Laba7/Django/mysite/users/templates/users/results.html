@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django + MySQL</title>
+</head>
+<body>
+
+<h1>Users</h1>
+<p>
+
+<div>
+    <fieldset>
+        <legend>Searching by: {{substring}}</legend>
+
+        {% for u in user %}
+        {{u}} <br>
+        {% endfor %}
+
+    </fieldset>
+</div>
+
+</body>
+</html>
